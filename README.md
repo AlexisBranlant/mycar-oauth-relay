@@ -5,6 +5,7 @@ sur GitHub Pages, servent d'adresse de retour : elles renvoient le navigateur ve
 (locale ou sur la Freebox) avec les paramètres reçus.
 
 - `volvo.html` : adresse de retour à déclarer chez Volvo.
+- `terms.html` : conditions d'utilisation et confidentialité (URL demandée par Volvo à la publication).
 - L'instance cible est lue dans le paramètre `state` (généré par le back myCar).
 - Destinations autorisées : réseau local (`localhost`, `192.168.x.x`, `10.x.x.x`, `*.local`…) et les
   origines listées dans `EXTRA_ORIGINS` (ex. votre futur domaine https).
